@@ -3,5 +3,5 @@ class ApiConfig {
   static const String baseUrl = 'https://api.unsplash.com';
 
   // Replace with your actual Unsplash API access key
-  static const String accessKey = 'your_unsplash_key_here';
+  static const String accessKey = 'VOTRE_CLE_API_UNSPLASH';
 }

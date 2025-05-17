@@ -27,34 +27,38 @@ class Routes {
 
 // App assets
 class AppAssets {
-  static const String logoPath = 'assets/images/Instagram-Logo-2016-present.png';
+  static const String logoPath =
+      'assets/images/Instagram-Logo-2016-present.png';
 }
 
 // Text styles
 class TextStyles {
   static const TextStyle title = TextStyle(
+    fontFamily: 'Pacifico',
     fontSize: 20,
     fontWeight: FontWeight.bold,
     color: AppColors.black,
   );
-  
+
   static const TextStyle subtitle = TextStyle(
+    fontFamily: 'Pacifico',
     fontSize: 16,
     fontWeight: FontWeight.w500,
     color: AppColors.black,
   );
-  
+
   static const TextStyle body = TextStyle(
+    fontFamily: 'Pacifico',
     fontSize: 14,
     color: AppColors.black,
   );
-  
+
   static const TextStyle buttonText = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.bold,
     color: AppColors.white,
   );
-  
+
   static const TextStyle caption = TextStyle(
     fontSize: 12,
     color: AppColors.darkGrey,
